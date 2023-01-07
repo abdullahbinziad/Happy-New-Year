@@ -1,0 +1,110 @@
+/* Google font call */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&family=Lobster&family=Work+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+.hero {
+  width: 100%;
+  background-image: url("./images/banner/banner3.png");
+  background-size: cover;
+  min-height: 700px;
+}
+.heroRight {
+  text-align: right;
+  color: white;
+  width: 45%;
+  position: absolute;
+  right: 112px;
+  top: 160px;
+}
+.heroRight h1 {
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+.heroRight p {
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+.heroBtn {
+  padding: 15px 25px;
+  background-color: white;
+  color: black;
+  font-weight: 600;
+  border: none;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+/* main section */
+.feature {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.featureImg {
+  width: 55%;
+}
+.featureImg img {
+  width: 500px;
+}
+
+.featureInfo {
+  width: 44%;
+}
+.featureInfo h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.featureInfo p {
+  margin-bottom: 10px;
+}
+.featureInfo ul {
+  list-style-type: none;
+
+}
+.featureInfo ul li:before {
+  content: "✓";
+  color: #16d887;
+  margin-right: 10px;
+}
+
+
+/* Plan  */
+
+.plan{
+margin-top: 100px;
+text-align: center;
+margin-bottom: 100px;
+
+}
+.plan > h1{
+font-size: 40px;
+font-weight: 700;
+margin-bottom: 30px;
+
+}
+.planitem{
+ 
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+.planContent h4{
+ 
+color: #383838;
+font-weight: 500;
+font-size: 25;
+   
+
+}
